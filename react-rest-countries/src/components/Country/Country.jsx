@@ -19,7 +19,7 @@ const Country = ({country,handleVisitedCountry}) => {
             <p>Population:{population}</p>
             <p>area: {area}</p>
             <p><small>Code: {cca3}</small></p>
-            <button onClick={handleVisitedCountry} className='btn'>Mark Visited</button>
+            <button onClick={()=>handleVisitedCountry(country)} className='btn'>Mark Visited</button>
             <br />
             <button   onClick={handleVisited} className='btn'>{visited ? 'Visited' : 'Going'}</button>
             <div>
