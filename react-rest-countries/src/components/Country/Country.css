@@ -5,8 +5,13 @@
     border-radius: 10px;
 }
 
+.visited{
+    background-color: bisque;
+}
+
 .btn{
     background-color: indigo;
     color: white;
+    margin-bottom: 5px;
     
 }
